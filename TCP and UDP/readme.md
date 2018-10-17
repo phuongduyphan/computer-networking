@@ -4,6 +4,7 @@ Install PIL packet python from pip:
 $ pip install image
 ```
 Run server scripts first before running any client scripts
+
 Example of sending image through TCP: 
 * Server:
     ```bash
