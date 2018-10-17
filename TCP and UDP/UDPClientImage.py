@@ -7,7 +7,7 @@ serverPort = 12000
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 
 # Different from TCP, in UDP, each packet maximum size is 65,507 bytes so
-# the data of the image is needed to divide into many packets
+# the data of the image need to be divided into many packets
 with open('music.jpg') as file:
 	# read the first 1024 bytes from image file
 	bytesToSend = file.read(1024)
